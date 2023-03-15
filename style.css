@@ -27,7 +27,7 @@ div#bruna {
     transform: translate(-50%, -50%);
     border-radius: 8px;
     background-color: white;
-    width: 90px;
+    width: 100px;
     height: 100px;
  
     transition: transform 0.3s ease;

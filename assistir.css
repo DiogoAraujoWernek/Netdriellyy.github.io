@@ -15,3 +15,14 @@
         left: 50%;
         transform: translate(-50%, -50%);
     }
+
+    #aha{
+        display: inline-block;
+        color: white;
+        font-weight: 5234;
+        position: absolute;
+        width: 30%;
+        top: 20%;
+        left: 20%;
+
+    }

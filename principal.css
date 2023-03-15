@@ -31,10 +31,11 @@ img#logo {
     bottom: 93%;
     size: 5px;
     width: 70px;
-    background-image: linear-gradient(to left, #510202, #2A2A2A);
+    background-color: #2A2A2A;
     border-radius: 20px;
     padding: 5px;
     left: 3%;
+    
 }
 
 
@@ -44,6 +45,8 @@ img#logo {
     left: 78%;
     color: black;
     width: 30px;
+    background-color: white;
+    border-radius: 12px;
 
 }
 
@@ -52,6 +55,8 @@ img#logo {
     top: 2%;
     left: 70%;
     color: black;
+    background-color: white;
+    border-radius: 12px;
 }
 div#icon {
     background-image: url(imagens/Screenshot_1.png);
@@ -75,8 +80,12 @@ p#titulo {
     left: 3%;
     border-radius: 10px;
     padding: 10px;
-    background-image: linear-gradient(to left, #510202, #2A2A2A);
+    background-image: linear-gradient(to left, #DC143C, #2A2A2A);
+    border: 4px solid transparent;
+    border-image: linear-gradient(to left, #2A2A2A, #DC143C);
+    border-image-slice: 1;
 }
+
 p#subtitulo {
     color: white;
     font-size: 0.8em;
@@ -85,7 +94,10 @@ p#subtitulo {
     left: 3%;
     border-radius: 10px;
     padding: 10px;
-    background-image: linear-gradient(to left, #510202, #2A2A2A);
+    background-image: linear-gradient(to left, #DC143C, #2A2A2A);
+    border: 4px solid transparent;
+    border-image: linear-gradient(to left, #2A2A2A, #DC143C);
+    border-image-slice: 1;
 }
 
 div#play{
@@ -133,6 +145,7 @@ ul#tp img {
     margin: 10px;
     border-radius: 1px;
     box-shadow: 1px 1px 1px rgba(255, 255, 255, 0.136);
+    height: 120px;
 }
 
 p#novamente {
@@ -151,11 +164,18 @@ ul#sp {
     left: 50%;
     transform: translate(-50%, -50%);
     display: flex;
+    box-shadow: 1px 1px 1px rgba(255, 255, 255, 0.136);
 }
 
 ul#sp img {
     width: 155px;
+    height: 120px;
     margin: 10px;
     border-radius: 2px;
-    box-shadow: 1px 1px 1px rgba(255, 255, 255, 0.136);
 }
+
+img:hover{
+    transform: scale(1.75);
+    transition-duration: 1s;
+}
+
