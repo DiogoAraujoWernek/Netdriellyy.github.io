@@ -1,0 +1,24 @@
+* {
+    background: #1a1a1a
+}
+
+p {
+    color: azure;
+    border: 5px solid black;
+    margin: 35px;
+    border-radius: 7px;
+    background-color: rgba(0, 0, 0, 0.438);
+    padding: 10px;
+}
+
+h1 {
+    
+    background-color: aliceblue;
+}
+
+img{
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

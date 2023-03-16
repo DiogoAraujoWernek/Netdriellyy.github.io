@@ -103,13 +103,29 @@ p#subtitulo {
 div#play{
     display: inline-block;
     color: black;
-    background-color: white;
+    background-color: #DC143C;
     width: 112px;
     height: 25px;
     position: absolute;
     top: 45%;
     left: 10%;
-    border-radius: 3px;
+    border-radius: 110px;
+    text-align: center;
+    font-size: 1.3em;
+
+    
+}
+
+div#sinopse {
+    display: inline-block;
+    color: black;
+    background-color: #DC143C;
+    width: 112px;
+    height: 25px;
+    position: absolute;
+    top: 45%;
+    left: 40%;
+    border-radius: 110px;
     text-align: center;
     font-size: 1.3em;
 
